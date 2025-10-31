@@ -1,0 +1,52 @@
+# -----------------------------
+# SmartTrade - Python Backend & ML Engine
+# -----------------------------
+
+# === Core Backend ===
+Flask==3.0.3
+Flask-CORS==4.0.1
+gunicorn==23.0.0        # for deployment (e.g., on Render, Hugging Face, or Heroku)
+requests==2.32.3
+
+# === Data & Numerical Processing ===
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.14.1
+
+# === Time Series Forecasting ===
+statsmodels==0.14.3     # ARIMA
+tensorflow==2.17.0      # for LSTM model
+keras==3.4.1
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+
+# === Data Visualization ===
+matplotlib==3.9.2
+plotly==5.24.1
+seaborn==0.13.2
+
+# === Financial Data APIs ===
+yfinance==0.2.48
+pandas-datareader==0.10.0
+alpha_vantage==3.0.0     # optional: Alpha Vantage API support
+
+# === Reinforcement Learning (Trading Strategy) ===
+gym==0.26.2
+stable-baselines3==2.3.2
+
+# === Alerts & Notifications ===
+twilio==9.2.3
+
+# === Utilities ===
+tqdm==4.66.5
+joblib==1.4.2
+python-dotenv==1.0.1
+
+# === Optional: Jupyter & Experimentation ===
+notebook==7.2.2
+jupyterlab==4.2.5
+
+# === Deployment (Hugging Face, etc.) ===
+gradio==5.4.0
